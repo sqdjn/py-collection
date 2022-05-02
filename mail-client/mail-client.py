@@ -10,8 +10,8 @@ class mail_client:
     def login(self):
         self.username = input("请输入帐号:")
         self.password = getpass.getpass()
-        # self.username = ""
-        # self.password = ""
+        # self.username = "xxx@qq.com"
+        # self.password = "邮箱授权码"
         self.path = "downloads/"
 
     def start(self):
