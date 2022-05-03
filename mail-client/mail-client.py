@@ -163,6 +163,13 @@ class mail_client:
         M.logout()
 
 
+
+# gb2312 < gbk < gb18030 字符集大小
+# decode(errors='strict/ignore/replace')
+# strict 非法字符报错，默认
+# ignore 非法字符忽视
+# replace 非法字符替换 ?
+
 # 将元组（内容，编码）按编码进行解码
 def tuple2str(tuple_):
     if tuple_[1]:
